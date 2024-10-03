@@ -395,7 +395,10 @@ label {
   color: var(--color1);
 }
 
-input[type="text"], input[type="email"], input[type="tel"], textarea {
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
   padding: 12px;
   border: 1px solid var(--color2);
   border-radius: 10px;
@@ -403,7 +406,10 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
   transition: border-color 0.3s ease;
 }
 
-input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus {
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
   border-color: var(--color3);
   outline: none;
 }
