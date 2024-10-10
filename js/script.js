@@ -37,3 +37,32 @@ btnCv.onclick = function() {
 span1.onclick = function() {
     cvModal.style.display = "none";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+const gifMod = document.getElementById('gif-mod');
+const modalGif = document.getElementById('modal-gif');
+const modalImgGif = document.getElementById('img-modal-gif');
+const closeGifBtn = document.querySelector('.close-gif');
+
+gifMod.onclick = function() {
+    modalGif.style.display = "flex"; // Cambiamos a flex para centrar contenido
+    modalImgGif.src = this.src; // Asigna la fuente del GIF al modal
+}
+
+closeGifBtn.onclick = function() {
+    modalGif.style.display = "none";
+}
+
+modalGif.onclick = function() {
+    modalGif.style.display = "none";
+}
