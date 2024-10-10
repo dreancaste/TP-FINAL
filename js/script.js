@@ -54,9 +54,25 @@ const modalGif = document.getElementById('modal-gif');
 const modalImgGif = document.getElementById('img-modal-gif');
 const closeGifBtn = document.querySelector('.close-gif');
 
+const gifMod1 = document.getElementById('gif-mod1');
+const modalGif1 = document.getElementById('modal-gif1');
+const modalImgGif1 = document.getElementById('img-modal-gif1');
+const closeGifBtn1 = document.querySelector('.close-gif1');
+
+const gifMod2 = document.getElementById('gif-mod2');
+const modalGif2 = document.getElementById('modal-gif2');
+const modalImgGif2 = document.getElementById('img-modal-gif2');
+const closeGifBtn2 = document.querySelector('.close-gif2');
+
+const gifMod3 = document.getElementById('gif-mod3');
+const modalGif3 = document.getElementById('modal-gif3');
+const modalImgGif3 = document.getElementById('img-modal-gif3');
+const closeGifBtn3 = document.querySelector('.close-gif3');
+
+
 gifMod.onclick = function() {
-    modalGif.style.display = "flex"; // Cambiamos a flex para centrar contenido
-    modalImgGif.src = this.src; // Asigna la fuente del GIF al modal
+    modalGif.style.display = "flex"; 
+    modalImgGif.src = this.src; 
 }
 
 closeGifBtn.onclick = function() {
@@ -64,5 +80,42 @@ closeGifBtn.onclick = function() {
 }
 
 modalGif.onclick = function() {
+    modalGif.style.display = "none";
+}
+
+gifMod1.onclick = function() {
+    modalGif.style.display = "flex"; 
+    modalImgGif.src = this.src; 
+}
+
+closeGifBtn1.onclick = function() {
+    modalGif.style.display = "none";
+}
+
+modalGif1.onclick = function() {
+    modalGif.style.display = "none";
+}
+gifMod2.onclick = function() {
+    modalGif.style.display = "flex"; 
+    modalImgGif.src = this.src; 
+}
+
+closeGifBtn2.onclick = function() {
+    modalGif.style.display = "none";
+}
+
+modalGif2.onclick = function() {
+    modalGif.style.display = "none";
+}
+gifMod3.onclick = function() {
+    modalGif.style.display = "flex"; 
+    modalImgGif.src = this.src; 
+}
+
+closeGifBtn3.onclick = function() {
+    modalGif.style.display = "none";
+}
+
+modalGif3.onclick = function() {
     modalGif.style.display = "none";
 }
